@@ -1,0 +1,80 @@
+============================================================
+开发集评估详细报告
+============================================================
+
+整体准确率: 0.648536
+平均步数: 9.439331
+平均症状召回率: 0.114784
+总样本数: 239
+
+------------------------------------------------------------
+各疾病准确率
+------------------------------------------------------------
+疾病名                  准确率          正确数      总数      
+------------------------------------------------------------
+Esophagitis          0.407407     11       27      
+Enteritis            0.875000     21       24      
+Asthma               0.684211     13       19      
+Coronary heart disease 0.631579     12       19      
+Pneumonia            0.550000     11       20      
+Rhinitis             0.533333     8        15      
+Thyroiditis          0.315789     6        19      
+Traumatic brain injury 0.736842     14       19      
+Dermatitis           0.950000     19       20      
+External otitis      0.705882     12       17      
+Conjunctivitis       0.714286     15       21      
+Mastitis             0.684211     13       19      
+
+------------------------------------------------------------
+Top 50 误分类情况
+------------------------------------------------------------
+Esophagitis     -> Coronary heart disease : 8
+Pneumonia       -> Asthma          : 6
+Rhinitis        -> Pneumonia       : 4
+Thyroiditis     -> Coronary heart disease : 4
+Esophagitis     -> External otitis : 3
+Asthma          -> Pneumonia       : 3
+Thyroiditis     -> Esophagitis     : 3
+Mastitis        -> Traumatic brain injury : 3
+Esophagitis     -> Enteritis       : 2
+Asthma          -> Coronary heart disease : 2
+Coronary heart disease -> External otitis : 2
+Coronary heart disease -> Asthma          : 2
+Thyroiditis     -> Mastitis        : 2
+External otitis -> Traumatic brain injury : 2
+Conjunctivitis  -> Traumatic brain injury : 2
+Esophagitis     -> Mastitis        : 1
+Esophagitis     -> Rhinitis        : 1
+Esophagitis     -> Pneumonia       : 1
+Enteritis       -> Mastitis        : 1
+Enteritis       -> Pneumonia       : 1
+Enteritis       -> Rhinitis        : 1
+Asthma          -> Rhinitis        : 1
+Coronary heart disease -> Rhinitis        : 1
+Coronary heart disease -> Enteritis       : 1
+Coronary heart disease -> Pneumonia       : 1
+Pneumonia       -> Coronary heart disease : 1
+Pneumonia       -> Mastitis        : 1
+Pneumonia       -> Enteritis       : 1
+Rhinitis        -> Conjunctivitis  : 1
+Rhinitis        -> External otitis : 1
+Rhinitis        -> Asthma          : 1
+Thyroiditis     -> Enteritis       : 1
+Thyroiditis     -> Asthma          : 1
+Thyroiditis     -> External otitis : 1
+Thyroiditis     -> Pneumonia       : 1
+Traumatic brain injury -> External otitis : 1
+Traumatic brain injury -> Thyroiditis     : 1
+Traumatic brain injury -> Esophagitis     : 1
+Traumatic brain injury -> Mastitis        : 1
+Traumatic brain injury -> Coronary heart disease : 1
+Dermatitis      -> Mastitis        : 1
+External otitis -> Coronary heart disease : 1
+External otitis -> Enteritis       : 1
+External otitis -> Mastitis        : 1
+Conjunctivitis  -> Asthma          : 1
+Conjunctivitis  -> Mastitis        : 1
+Conjunctivitis  -> Coronary heart disease : 1
+Conjunctivitis  -> Enteritis       : 1
+Mastitis        -> Pneumonia       : 1
+Mastitis        -> Enteritis       : 1

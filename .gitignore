@@ -1,0 +1,20 @@
+# Local datasets: provenance and redistribution permission are not yet confirmed.
+dataset/*
+!dataset/README.md
+source_data/
+log/
+model_saved/
+test_prediction*.txt
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.env
+.env.*
+*.pem
+*.key
+*.zip

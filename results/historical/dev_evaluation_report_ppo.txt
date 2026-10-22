@@ -1,0 +1,19 @@
+PPO 评估报告 (Trail 2)
+==============================
+Accuracy: 0.6695
+Avg Steps: 9.1255
+Avg Recall: 0.1260
+
+疾病名                  准确率          正确/总数
+Dermatitis           0.900000     18/20
+Enteritis            0.833333     20/24
+External otitis      0.823529     14/17
+Traumatic brain injury 0.789474     15/19
+Coronary heart disease 0.736842     14/19
+Mastitis             0.684211     13/19
+Conjunctivitis       0.619048     13/21
+Thyroiditis          0.578947     11/19
+Pneumonia            0.550000     11/20
+Rhinitis             0.533333     8/15
+Asthma               0.526316     10/19
+Esophagitis          0.481481     13/27

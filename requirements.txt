@@ -1,0 +1,8 @@
+# Direct dependencies; install the appropriate PyTorch build for your hardware.
+# These are compatibility ranges, not a historical environment lockfile.
+torch>=2.5,<3
+numpy>=1.26,<3
+scipy>=1.13,<2
+tqdm>=4.66,<5
+matplotlib>=3.9,<4
+seaborn>=0.13,<0.14
